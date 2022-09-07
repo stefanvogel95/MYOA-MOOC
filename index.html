@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html>
 
-
+<!-- Head Section including title -->
 <head>
     <title>chatter|app</title>
-    <meta charset="UTF-8">
-    <!-- The head section contains information about the document (such as title, author and type of characters).-->
+    
+    <!-- This is the CSS part-->
     <style> 
-            
-        /* This is a CSS Comment! */
+            /* Standard font setting */
+    * {
+            /*Sans-Serif ist das Backup für alle Betriebssysteme*/
+            font-family: "Roboto", Arial, Sans-Serif;         
+        }
+
+    h1 {
+        color: #00838f
+    }
+    h2 {
+        color: #00838f;
+        font-size:small;
+    }
+
+    p {
+        background-color: #eeeeee;
+    }
+
+    button {
+        background-color: #00838f;
+        text-transform: uppercase;
+        color: white;
+        font-size: large
+    }
 
         
     </style>
@@ -17,31 +39,33 @@
 <body>
 <!-- channel area: -->
 
-<h1>chatter|app</h1>
-<h2>Favorites</h2>
-<strong>Oktoberfest</strong> <small> 10:30</small> <br> <strong>Friends</strong> <small> 14:00</small>
+    <h1>chatter|app</h1>
+    <h2>Favorites</h2>
+    <strong>Oktoberfest</strong> <small> 10:30</small> <br> <strong>Friends</strong> <small> 14:00</small>
 
 
-<h2>Regular</h2>
-<strong>Work</strong> <small> sucks</small> <br> <strong>Family</strong> <small> Urgent</small>
+    <h2>Regular</h2>
+    <strong>Work</strong> <small> sucks</small> <br> <strong>Family</strong> <small> Urgent</small>
 
 
 
 <!-- chat area:-->
-<h1><strong>Friends</strong></h1>
-<button>Favorite</button>
+    <h1><strong>Friends</strong></h1>
+    <button>Favorite</button>
 
-<h2>Stefan</h2>
-<p>Hi, do you want to go to the cinema tonight?</p>
-<small>13:34</small>
+    <h2>Stefan</h2>
+    <p>Hi, do you want to go to the cinema tonight?</p>
+    <small>13:34</small>
 
-<h2>Jasmin</h2>
-<p>Hey, I'm down with it. What movie do you want to watch?</p>
-<small>13:40</small>
+    <h2>Jasmin</h2>
+    <p>Hey, I'm down with it. What movie do you want to watch?</p>
+    <small>13:40</small>
 
-<h2>Stefan</h2>
-<p>Cook. I suggest we watch the latest "Top Gun" movie. See you there by 8pm :)</p>
-<small>13:45</small>
+    <h2>Stefan</h2>
+    <p>Cook. I suggest we watch the latest "Top Gun" movie. See you there by 8pm :)</p>
+    <small>13:45</small> <br>
+
+    <input> <button>Send</button>
 
 
 
